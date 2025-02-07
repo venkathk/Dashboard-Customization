@@ -1,0 +1,139 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "title": "Total Submissions",
+            "description": "30"
+        },
+        {
+            "id": 2,
+            "title": "Active Clients",
+            "description": "2"
+        },
+        {
+            "id": 3,
+            "title": "Total Revenue",
+            "description": "$100,000"
+        },
+        {
+            "id": 4,
+            "title": "Onsite-employees",
+            "description": "15"
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Awadh Mohammed",
+            "position": "Software Engineer",
+            "department": "Software Development",
+            "salary": 120000
+        },
+        {
+            "id": 2,
+            "name": "John Doe",
+            "position": "IT Recruiter",
+            "department": "Software Development",
+            "salary": 100000
+        },
+        {
+            "id": 3,
+            "name": "Jane Doe",
+            "position": "Software Engineer",
+            "department": "Software Development",
+            "salary": 100000
+        },
+        {
+            "id": 4,
+            "name": "John Smith",
+            "position": "Software Engineer",
+            "department": "Software Development",
+            "salary": 100000
+        },
+        {
+            "id": 5,
+            "name": "Jane Smith",
+            "position": "Software Engineer",
+            "department": "Software Development",
+            "salary": 100000
+        }
+    ],
+    "barChart": {
+        "labels": ["John", "Jane", "Awadh", "Smith"],
+        "datasets": [
+            {
+                "label": "Salary",
+                "data": [100000, 100000, 120000, 100000],
+                "backgroundColor": ["#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9"],
+                "borderColor": ["#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9"]
+            }
+        ],
+        "options": {
+            "scales": {
+                "x": {
+                    "title": {
+                        "display": true,
+                        "text": "Employee"
+                    }
+                },
+                "y": {
+                    "title": {
+                        "display": true,
+                        "text": "Salary"
+                    }
+                }
+            }
+        }
+    },
+    "lineChart": {
+        "labels": ["January", "February", "March", "April", "May", "June", "July"],
+        "datasets": [
+            {
+                "label": "Revenue",
+                "data": [100000, 20000, 30000, 40000, 50000, 60000, 70000],
+                "backgroundColor": ["#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9"],
+                "borderColor": ["#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9"]
+            }
+        ],
+        "options": {
+            "scales": {
+                "x": {
+                    "title": {
+                        "display": true,
+                        "text": "Month"
+                    }
+                },
+                "y": {
+                    "title": {
+                        "display": true,
+                        "text": "Revenue"
+                    }
+                }
+            }
+        }   
+    },
+    "pieChart": {
+        "labels": ["Awadh", "Baki", "Hanuman", "krish","Ramesh"],
+        "datasets": [
+            {
+                "labels": "Onboarded percentage",
+                "data": [30, 20, 21, 30, 26],
+                "borderColor": ["#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9", "#c45850"], 
+                "backgroundColor": ["#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9", "#c45850"]
+            }
+        ],
+        "options": {
+            "plugins": {
+                "title": {
+                    "display": true,
+                    "text": "Onboarded percentage"
+                },
+                "legend":{
+                    "display": true,
+                    "position": "right"
+                }
+            }
+        }
+    }
+}
+    
